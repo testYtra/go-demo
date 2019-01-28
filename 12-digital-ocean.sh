@@ -5,7 +5,7 @@ curl -X GET \
     "https://api.digitalocean.com/v2/regions" \
     | jq '.'
 
-export DIGITALOCEAN_REGION=sfo2
+export DIGITALOCEAN_REGION=ams3
 
 cd cloud-provisioning
 
